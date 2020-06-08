@@ -3,9 +3,9 @@ package com.spinshock.readerforreddit.api;
 import com.spinshock.readerforreddit.model.LogicalThread;
 import com.spinshock.readerforreddit.service.LogicalThreadService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class LogicalThreadController {
 
     private final LogicalThreadService logicalThreadService;
